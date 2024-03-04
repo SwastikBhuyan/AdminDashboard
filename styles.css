@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: "system-ui";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+    width: 230px;
+    background-color: rgb(0, 123, 255);
+    position: relative;
+    padding-left: 20px;
+    min-height: 100vh;
+}
+
+#navs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+
+#help {
+    display: flex;
+    flex-direction: column;
+}
+
+#dashboard {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+#sidebar > div > div {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#sidebar p {
+    margin: 0;
+    margin-left: 25px;
+}
+img {
+    height: 30px;
+    width: 30px;
+ }
+
+ /* MAIN */
+
+ #head {
+    display: grid;
+    min-width: 80vw;
+    grid-template-columns: 2fr 1fr;
+ }
